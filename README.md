@@ -74,21 +74,6 @@ A API fornece endpoints para gerenciar livros, autores e categorias. Exemplos:
 - **PUT /api/books/{id}**: Atualiza as informações de um livro existente
 - **DELETE /api/books/{id}**: Remove um livro
 
-## Uso
-
-Exemplo de uso com `curl` para adicionar um livro:
-
-```bash
-curl -X POST http://localhost:5000/api/books \
--H "Content-Type: application/json" \
--d '{
-  "title": "Nome do Livro",
-  "author": "Autor do Livro",
-  "category": "Categoria do Livro",
-  "price": 19.99
-}'
-```
-
 ---
 
 <h3 align="center">
